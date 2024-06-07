@@ -244,7 +244,7 @@ footer {
 
     p {
         margin: 0;
-        color: #073baa;
+        color: $text;
     }
 }
 
@@ -643,12 +643,15 @@ footer {
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
-    text-align: center;
 
     h2 {
         color: $heading;
         margin-bottom: 50px;
     }
+}
+
+.project-link {
+    text-align: center;
 }
 
 .project {
@@ -659,6 +662,7 @@ footer {
     background: #fff;
     border-radius: 4px;
 }
+
 
 .project-image {
     float: left;
@@ -682,6 +686,16 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+    }
+
+    ul {
+        margin: 0;
+        color: $text;
+        font-size: 0.9em;
+    }
+
+    ul {
+        padding: 0 0 0 15px;
     }
 }
 
@@ -857,6 +871,12 @@ footer {
     #experience-timeline {
         &:before, &:after {
             left: 23px;
+        }
+
+        ul {
+            margin: 0;
+            color: $text;
+            font-size: 0.9em;
         }
 
     }
