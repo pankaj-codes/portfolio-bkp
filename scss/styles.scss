@@ -687,6 +687,16 @@ footer {
         margin: 0 0 15px 0;
         font-size: 0.9em;
     }
+
+    ul {
+        margin: 0;
+        color: $text;
+        font-size: 0.9em;
+    }
+
+    ul {
+        padding: 0 0 0 15px;
+    }
 }
 
 .no-image {
