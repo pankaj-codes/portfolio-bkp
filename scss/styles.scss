@@ -244,7 +244,7 @@ footer {
 
     p {
         margin: 0;
-        color: #073baa;
+        color: $text;
     }
 }
 
@@ -502,16 +502,6 @@ footer {
         background: linear-gradient(to bottom, $base-color, rgba($base-color, 0));
         top: 100%;
         left: 303px;
-    }
-
-    p, ul {
-        margin: 0;
-        color: $text;
-        font-size: 0.9em;
-    }
-
-    ul {
-        padding: 0 0 0 15px;
     }
 }
 
