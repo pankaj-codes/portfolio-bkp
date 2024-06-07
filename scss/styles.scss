@@ -643,7 +643,7 @@ footer {
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
-    text-align: center;
+    // text-align: center;
 
     h2 {
         color: $heading;
@@ -664,6 +664,10 @@ footer {
     float: left;
 }
 
+#project-link {
+    text-align: center;
+}
+
 .project-info {
     position: absolute;
     top: 50%;
@@ -682,6 +686,16 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+    }
+
+    ul {
+        margin: 0;
+        color: $text;
+        font-size: 0.9em;
+    }
+
+    ul {
+        padding: 0 0 0 15px;
     }
 }
 
